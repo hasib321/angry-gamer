@@ -158,6 +158,64 @@ nav {
 
 /* Nav Style Finish */
 
+/* **********************we are gamer part start****************************/
+.we-gamer-container {
+  padding: 50px 210px;
+}
+.we-gamer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.we-gamer-image img {
+  width: 50rem;
+  height: auto;
+}
+
+.we-gamer-title {
+  text-align: right;
+  font-size: 2rem;
+  font-weight: 700;
+  background: var(--secondary-violet);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.we-gamer-description {
+  color: var(--gray);
+  text-align: right;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.we-gamer-btn {
+  border-radius: 48px;
+  background: var(--primary-pink);
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  padding: 14px 20px;
+}
+.button-container {
+  text-align: right;
+  margin-top: 20px;
+}
+.we-gamer-caption p {
+  color: var(--gray);
+  text-align: right;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.we-gamer-caption h4 {
+  color: var(--gray);
+  text-align: right;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: -5px;
+}
+/* we are gamer end   */
+
 /* *********************Online Games Section Start ******************/
 
 .online-games {
@@ -455,6 +513,35 @@ footer {
     margin-top: 50px;
   }
 
+  /* we are gamer */
+  .we-gamer-container {
+    padding: 50px 30px;
+  }
+  .we-gamer {
+    flex-direction: column;
+  }
+  .we-gamer-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .we-gamer-title {
+    text-align: center;
+  }
+  .we-gamer-description {
+    text-align: center;
+  }
+
+  .button-container {
+    text-align: center;
+  }
+  .we-gamer-caption p {
+    text-align: center;
+  }
+  .we-gamer-caption h4 {
+    text-align: center;
+  }
+
   /* online games */
   .online-games {
     padding: 20px 30px;
@@ -582,6 +669,34 @@ footer {
     width: 100%;
     height: auto;
     margin-top: 50px;
+  }
+  /* we are gamer */
+  .we-gamer-container {
+    padding: 50px 30px;
+  }
+  .we-gamer {
+    flex-direction: column;
+  }
+  .we-gamer-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .we-gamer-title {
+    text-align: center;
+  }
+  .we-gamer-description {
+    text-align: center;
+  }
+
+  .button-container {
+    text-align: center;
+  }
+  .we-gamer-caption p {
+    text-align: center;
+  }
+  .we-gamer-caption h4 {
+    text-align: center;
   }
 
   /* online games */
