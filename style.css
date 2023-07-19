@@ -525,6 +525,12 @@ footer {
     height: auto;
   }
 
+  .we-gamer-content {
+    order: 1;
+  }
+  .we-gamer-image {
+    order: 2;
+  }
   .we-gamer-title {
     text-align: center;
   }
@@ -676,8 +682,15 @@ footer {
     margin-top: 50px;
   }
   /* we are gamer */
+
   .we-gamer-container {
     padding: 50px 30px;
+  }
+  .we-gamer-content {
+    order: 1;
+  }
+  .we-gamer-image {
+    order: 2;
   }
   .we-gamer {
     flex-direction: column;
